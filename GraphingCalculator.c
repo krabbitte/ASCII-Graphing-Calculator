@@ -118,7 +118,6 @@ void printplane(char n)
 			break;
 	}
 
-	//prints a section of the plane based on the the horizontal and vertical values
 	for(int i = WINDOWDEFY + v; i < WINDOWDEFY + WINDOWWIDTHY + v; i++)
 	{
 		for (int j = WINDOWDEFX - h; j < WINDOWDEFX + WINDOWWIDTHX - h; j++)
